@@ -7,22 +7,22 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷』*"
+global.botnumber = "*『🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷』*"
 global.confirmCode = ""
 
-global.owner = [['201280244814', '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
+global.owner = [['201020809278', '⁨𝒦𝒪𝑀𝒜𝒩𝒟𝒪 ℬ𝒪𝒯', true],
 ];
 
 global.suittag = ['201280244814'];
 global.prems = ['201280244814'];
 
-global.packname = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.author = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.wm = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.titulowm = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.titulowm2 = `🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷`
-global.igfg = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.packname = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.author = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.wm = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.titulowm = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.titulowm2 = `🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷`
+global.igfg = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://atom.bio/komando*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -42,14 +42,14 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷`;
-global.gt = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.mysticbot = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
-global.mysticbot = 'atom.bio/harley_light';
-global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.wm2 = `${dia} ${fecha}\n🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷`;
+global.gt = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.mysticbot = '🍷𝒦𝒪𝑀𝒜𝒩𝒟𝒪�┊🤖┊𝐁𝐎𝐓🍷';
+global.md = 'https://api.whatsapp.com/send?phone=201020809278';
+global.mysticbot = 'https://atom.bio/komando';
+global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://atom.bio/komando*';
+global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://atom.bio/komando*';
+global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://atom.bio/komando*';
 global.nomorown = '201280244814';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
